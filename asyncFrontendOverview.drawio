@@ -1,0 +1,247 @@
+<mxfile host="app.diagrams.net" modified="2023-11-29T04:16:27.134Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="4oJdyPyES7ycQj2kwrSY" version="22.1.4" type="github">
+  <diagram name="第 1 页" id="Wv7YBDToErYbK8juhfGM">
+    <mxGraphModel dx="937" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-1" value="iCache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="360" width="70" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="420" as="sourcePoint" />
+            <mxPoint x="120" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-3" value="c指令切分与还原" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="pZk_Ic55ntujiV6dr-kx-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="420" as="sourcePoint" />
+            <mxPoint x="300" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-5" value="对齐指令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="pZk_Ic55ntujiV6dr-kx-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="420" as="sourcePoint" />
+            <mxPoint x="560" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="pZk_Ic55ntujiV6dr-kx-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="420" as="sourcePoint" />
+            <mxPoint x="520" y="416.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-9" value="多路预解码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-11" value="类型与地址" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="360" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="pZk_Ic55ntujiV6dr-kx-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="420" as="sourcePoint" />
+            <mxPoint x="680" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-13" value="跳转指令汇集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="pZk_Ic55ntujiV6dr-kx-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="420" as="sourcePoint" />
+            <mxPoint x="840" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-16" value="跳转汇集表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="360" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-17" value="Type｜Addr" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="488" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-18" value="Type | offset" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="825" y="488" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-21" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;cFifo&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="1210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="pZk_Ic55ntujiV6dr-kx-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="179.5" y="240" as="sourcePoint" />
+            <mxPoint x="180" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.493;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="pZk_Ic55ntujiV6dr-kx-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="449.50000000000017" y="240.00000000000003" as="sourcePoint" />
+            <mxPoint x="450.07" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="pZk_Ic55ntujiV6dr-kx-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="739.5" y="240" as="sourcePoint" />
+            <mxPoint x="740" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-25" value="cCondFork" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-26" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pZk_Ic55ntujiV6dr-kx-16" target="pZk_Ic55ntujiV6dr-kx-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="510" as="sourcePoint" />
+            <mxPoint x="950" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="935" y="420" />
+              <mxPoint x="935" y="530" />
+              <mxPoint x="1090" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-27" value="第一条是否是非B或者全是普通指令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="905" y="538" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.358;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.821;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090.4499999999998" y="240" as="sourcePoint" />
+            <mxPoint x="1090" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-29" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="414.5" as="sourcePoint" />
+            <mxPoint x="1260" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1221" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-31" value="N B" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pZk_Ic55ntujiV6dr-kx-29">
+          <mxGeometry x="-0.1" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-30" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="450" as="sourcePoint" />
+            <mxPoint x="1260" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1220" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-32" value="B" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pZk_Ic55ntujiV6dr-kx-30">
+          <mxGeometry x="-0.2333" y="2" relative="1" as="geometry">
+            <mxPoint x="5" y="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-33" value="扫尾工作：截断指令、操纵栈、重定向pc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-35" value="送连B指令到分支预测器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="pZk_Ic55ntujiV6dr-kx-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1380" y="510" as="sourcePoint" />
+            <mxPoint x="1430" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-37" value="扫尾工作：截断指令、重定向pc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-38" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1380" y="330" as="sourcePoint" />
+            <mxPoint x="1460" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-39" value="pc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pZk_Ic55ntujiV6dr-kx-38">
+          <mxGeometry x="0.0872" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-40" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1380" y="350" as="sourcePoint" />
+            <mxPoint x="1660" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-44" value="指令传送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pZk_Ic55ntujiV6dr-kx-40">
+          <mxGeometry x="-0.0714" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-41" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1550" y="510" as="sourcePoint" />
+            <mxPoint x="1580" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-42" value="pc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pZk_Ic55ntujiV6dr-kx-41">
+          <mxGeometry x="0.3962" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-43" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1550" y="528" as="sourcePoint" />
+            <mxPoint x="1660" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-45" value="指令传送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pZk_Ic55ntujiV6dr-kx-43">
+          <mxGeometry x="-0.1636" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-46" value="指令队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="430" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="435" as="sourcePoint" />
+            <mxPoint x="1260" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-49" value="normal inst" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pZk_Ic55ntujiV6dr-kx-47">
+          <mxGeometry x="0.1091" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-48" value="pc+4、不截断任何指令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-50" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="pZk_Ic55ntujiV6dr-kx-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1380" y="445" as="sourcePoint" />
+            <mxPoint x="1430" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-53" value="指令传送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pZk_Ic55ntujiV6dr-kx-50">
+          <mxGeometry x="0.275" y="-1" relative="1" as="geometry">
+            <mxPoint x="17" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-51" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1380" y="420" as="sourcePoint" />
+            <mxPoint x="1520" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1380" y="421" />
+              <mxPoint x="1520" y="421" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZk_Ic55ntujiV6dr-kx-52" value="pc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pZk_Ic55ntujiV6dr-kx-51">
+          <mxGeometry x="0.4337" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
